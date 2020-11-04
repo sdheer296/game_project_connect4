@@ -53,6 +53,14 @@ function changeColor(e) {
       row.push(tableRow[i].cells[column]);
       if (currentPlayer == 1) {
         row[0].style.backgroundColor = player1color;
+        currentPlayer =2;
+        break;
+      }
+      if(currentPlayer == 2){
+        row[0].style.backgroundColor = player2color;
+        currentPlayer = 1;
+        break;
+
       }
     }
   }

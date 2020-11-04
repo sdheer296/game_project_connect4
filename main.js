@@ -20,12 +20,15 @@ for (let i = 0; i < tableCell.length; i++) {
 
 let player1color = "red";
 let player1 = "myself";
+let player2color = "green";
 let player2 = "you";
+
+
 // while (!player2) {
 //   var player2 = prompt("player 2: Enter your name.You will be green");
 // }
 
-let player2color = "green";
+// let player2color = "green";
 
 var currentPlayer = 1;
 playerTurn.textContent = `${player1}'s turn!`;
@@ -36,6 +39,8 @@ Array.prototype.forEach.call(tableCell, (cell) => {
   cell.addEventListener("click", changeColor);
   cell.style.backgroundColor = "white"; //cell background is white so thats why we need this method here
 });
+
+
 
 function changeColor(e) {
   //in this function, we will create a variable called  column  and it will take an event and e is an event
@@ -65,3 +70,12 @@ function changeColor(e) {
     }
   }
 }
+
+reset.addEventListener('click',() =>{
+    tableSlot.forEach(slot =>{
+        slot.style.background = 'white';
+    });
+    playerTurn.style.backgroundColor = 'black';
+    return(currentPlayer ===1 ? playerTurn.textContent = `${player}'s turn ` : playerTurn.textContent = `${player2}'s turn`);
+    })
+

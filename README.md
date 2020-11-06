@@ -1,7 +1,7 @@
 # Title:  Connect 4 game
 
 
-![alt text](https://miro.medium.com/max/1280/1*A5b630g96x9PrhwB9Mvf1w.png)
+![alt text](https://webscripts.softpedia.com/screenshots/Matlab-Connect-Four-18314.png)
 
 # Deployment Link:https://sdheer296.github.io/game_project_connect4/
 

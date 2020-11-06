@@ -3,6 +3,8 @@
 
 ![alt text](https://miro.medium.com/max/1280/1*A5b630g96x9PrhwB9Mvf1w.png)
 
+# Deployment Link:https://sdheer296.github.io/game_project_connect4/
+
 
 ## Introduction:  
 

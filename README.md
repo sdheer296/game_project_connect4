@@ -14,7 +14,6 @@ Connect 4 game is a 2 player game played on 6 rows by 7 columns board.Each playe
 
 ## How I build it :
 1.Began with wire framing and used lot of references.
-
 2.Wrote psuedocode to understand the logic of the game.
 3.Started by creating elements in HTML and then moved to CSS for stying it.
 4.Then coding in java script and figuring the winning logic by creating various functions.

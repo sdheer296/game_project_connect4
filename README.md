@@ -1,4 +1,9 @@
 # Title:  Connect 4 game
+
+
+![alt text](https://miro.medium.com/max/1280/1*A5b630g96x9PrhwB9Mvf1w.png)
+
+
 ## Introduction:  
 
 Connect 4 game is a 2 player game played on 6 rows by 7 columns board.Each player chooses a column to put their color. The winner is the player who forms a line of 4 adjacent slots of his selected color(horizontal, vertical or diagonal). The game will also display player’s name. When the game is finished, the program will display the winner. 
